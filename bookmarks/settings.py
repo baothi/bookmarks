@@ -148,5 +148,5 @@ SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
 SOCIAL_AUTH_TWITTER_KEY = '' # Twitter API Key
 SOCIAL_AUTH_TWITTER_SECRET = '' # Twitter API Secret
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '' # Google Consumer Key
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '' # Google Consumer Secret
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '355721993872-j188861dr1a2c569lv76vpep0h1fkvjq.apps.googleusercontent.com' # Google Consumer Key
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'pcgaidVXL9ULjoLdiqDvhz4W' # Google Consumer Secret
