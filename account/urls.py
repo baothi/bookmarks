@@ -24,3 +24,5 @@ urlpatterns = [
     path('register/', views.register, name='register'),
     path('edit/', views.edit, name='edit'),
 ]
+
+# https://docs.djangoproject.com/en/3.0/topics/auth/default/#all-authentication-views

@@ -13,6 +13,7 @@
     {% endif %}
     <div class="login-form">
         <form action="{% url 'login' %}" method="post">
+        <h1>day la log in</h1>
             {{ form.as_p }}
             {% csrf_token %}
             <input type="hidden" name="next" value="{{ next }}" />
