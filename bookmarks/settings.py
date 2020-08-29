@@ -125,6 +125,15 @@ USE_L10N = True
 
 USE_TZ = True
 
+STATIC_URL = '/static/'
+
+# Base url to serve media files
+MEDIA_URL = '/media/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
+# Path where media is stored
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
 LOGIN_REDIRECT_URL = 'dashboard'
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
@@ -133,13 +142,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.Emailbackend'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = '/static/'
-
-# Base url to serve media files
-MEDIA_URL = '/media/'
-
-# Path where media is stored
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
