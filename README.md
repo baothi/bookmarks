@@ -10,6 +10,8 @@ SELECT *</br>
 FROM pg_stat_activity</br>
 WHERE datname = 'BookMarks';</br>
 
+sudo service postgresql restart
+
 sudo kill -15 4712 </br>
 
 https://www.postgresqltutorial.com/postgresql-drop-database/
