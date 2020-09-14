@@ -15,3 +15,6 @@ sudo service postgresql restart
 sudo kill -15 4712 </br>
 
 https://www.postgresqltutorial.com/postgresql-drop-database/
+
+ps -ef | grep postgres
+sudo kill -9 9159
